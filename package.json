@@ -1,0 +1,46 @@
+{
+  "name": "chinese-card-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.nobook.com:web/web-mind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.7.0",
+    "babel-plugin-import": "^1.13.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.0.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "pinyin": "^2.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-input-color": "^3.0.1",
+    "webpack-bundle-analyzer": "^3.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
